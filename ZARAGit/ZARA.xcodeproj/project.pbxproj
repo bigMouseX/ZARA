@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A7D77EB2A2C268B005B1F92 /* selfMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D77EA2A2C268B005B1F92 /* selfMessageViewController.m */; };
+		8A7D77ED2A2C28DA005B1F92 /* erweima.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7D77EC2A2C28DA005B1F92 /* erweima.png */; };
+		8A7D77F02A2C29CB005B1F92 /* selfMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D77EF2A2C29CA005B1F92 /* selfMessageTableViewCell.m */; };
+		8A7D77F22A2C399F005B1F92 /* S1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7D77F12A2C399F005B1F92 /* S1.jpg */; };
+		8A7D77F42A2C48F9005B1F92 /* zaraHome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7D77F32A2C48F9005B1F92 /* zaraHome.jpg */; };
+		8ABC5D762A29961600D3E0B9 /* set1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D752A29961600D3E0B9 /* set1.png */; };
+		8ABC5D822A29A06100D3E0B9 /* set2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D812A29A06100D3E0B9 /* set2.png */; };
+		8ABC5D842A29A06700D3E0B9 /* set3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D832A29A06700D3E0B9 /* set3.png */; };
+		8ABC5D872A29A06F00D3E0B9 /* set31.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D852A29A06F00D3E0B9 /* set31.png */; };
+		8ABC5D882A29A06F00D3E0B9 /* set4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D862A29A06F00D3E0B9 /* set4.png */; };
+		8ABC5D8A2A2B8C1700D3E0B9 /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D892A2B8C1700D3E0B9 /* fanhui.png */; };
+		8ABC5D8C2A2B8C1B00D3E0B9 /* qianjin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC5D8B2A2B8C1B00D3E0B9 /* qianjin.png */; };
+		8ABFBBC92A257FDC00A99297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBC82A257FDC00A99297 /* AppDelegate.m */; };
+		8ABFBBCC2A257FDC00A99297 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBCB2A257FDC00A99297 /* SceneDelegate.m */; };
+		8ABFBBCF2A257FDC00A99297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBCE2A257FDC00A99297 /* ViewController.m */; };
+		8ABFBBD22A257FDC00A99297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBBD02A257FDC00A99297 /* Main.storyboard */; };
+		8ABFBBD42A257FDD00A99297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBBD32A257FDD00A99297 /* Assets.xcassets */; };
+		8ABFBBD72A257FDD00A99297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBBD52A257FDD00A99297 /* LaunchScreen.storyboard */; };
+		8ABFBBDA2A257FDD00A99297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBD92A257FDD00A99297 /* main.m */; };
+		8ABFBBE42A257FDE00A99297 /* ZARATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBE32A257FDE00A99297 /* ZARATests.m */; };
+		8ABFBBEE2A257FDE00A99297 /* ZARAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBED2A257FDE00A99297 /* ZARAUITests.m */; };
+		8ABFBBF02A257FDE00A99297 /* ZARAUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBBEF2A257FDE00A99297 /* ZARAUITestsLaunchTests.m */; };
+		8ABFBC012A25824300A99297 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC002A25824300A99297 /* SelectViewController.m */; };
+		8ABFBC042A25825500A99297 /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC032A25825500A99297 /* BuyViewController.m */; };
+		8ABFBC072A25827000A99297 /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC062A25827000A99297 /* AdminViewController.m */; };
+		8ABFBC0B2A2588C500A99297 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC0A2A2588C500A99297 /* Cell.xib */; };
+		8ABFBC152A25B37B00A99297 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC142A25B37B00A99297 /* HomeViewController.m */; };
+		8ABFBC462A2601F300A99297 /* zhuye.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC452A2601F300A99297 /* zhuye.png */; };
+		8ABFBC482A2602DF00A99297 /* gouwuche.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC472A2602DF00A99297 /* gouwuche.png */; };
+		8ABFBC4A2A2603AE00A99297 /* yonghu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC492A2603AE00A99297 /* yonghu.png */; };
+		8ABFBC4E2A261EA300A99297 /* ZaraLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC4D2A261EA300A99297 /* ZaraLogo.png */; };
+		8ABFBC522A26208400A99297 /* sousuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC512A26208400A99297 /* sousuo.png */; };
+		8ABFBC542A26261D00A99297 /* P1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC532A26261D00A99297 /* P1.png */; };
+		8ABFBC582A262D4500A99297 /* P2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC572A262D4500A99297 /* P2.png */; };
+		8ABFBC5A2A262DA700A99297 /* P3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC592A262DA700A99297 /* P3.png */; };
+		8ABFBC5F2A2648B500A99297 /* Select_woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC5E2A2648B500A99297 /* Select_woman.m */; };
+		8ABFBC622A2648D800A99297 /* Select_kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC612A2648D800A99297 /* Select_kid.m */; };
+		8ABFBC652A2648E300A99297 /* Select_man.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBC642A2648E300A99297 /* Select_man.m */; };
+		8ABFBC6B2A264C9000A99297 /* ZaraLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ABFBC6A2A264C9000A99297 /* ZaraLogo1.png */; };
+		8AC486392A278ADE006B105E /* S2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC486382A278ADE006B105E /* S2.jpg */; };
+		8AC4863B2A278AE3006B105E /* S3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4863A2A278AE3006B105E /* S3.jpg */; };
+		8AC4863E2A279874006B105E /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4863D2A279874006B105E /* MyTableViewCell.m */; };
+		8AC486402A284CD2006B105E /* hs.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4863F2A284CD2006B105E /* hs.jpeg */; };
+		8AC486432A28D2E3006B105E /* serviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC486422A28D2E3006B105E /* serviceTableViewCell.m */; };
+		8AE31B3A2A30A3600033525A /* set5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE31B392A30A3600033525A /* set5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ABFBBE02A257FDE00A99297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ABFBBBC2A257FDC00A99297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABFBBC32A257FDC00A99297;
+			remoteInfo = ZARA;
+		};
+		8ABFBBEA2A257FDE00A99297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ABFBBBC2A257FDC00A99297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABFBBC32A257FDC00A99297;
+			remoteInfo = ZARA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A7D77E92A2C268B005B1F92 /* selfMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selfMessageViewController.h; sourceTree = "<group>"; };
+		8A7D77EA2A2C268B005B1F92 /* selfMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selfMessageViewController.m; sourceTree = "<group>"; };
+		8A7D77EC2A2C28DA005B1F92 /* erweima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erweima.png; sourceTree = "<group>"; };
+		8A7D77EE2A2C29CA005B1F92 /* selfMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selfMessageTableViewCell.h; sourceTree = "<group>"; };
+		8A7D77EF2A2C29CA005B1F92 /* selfMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selfMessageTableViewCell.m; sourceTree = "<group>"; };
+		8A7D77F12A2C399F005B1F92 /* S1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S1.jpg; sourceTree = "<group>"; };
+		8A7D77F32A2C48F9005B1F92 /* zaraHome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaraHome.jpg; sourceTree = "<group>"; };
+		8ABC5D752A29961600D3E0B9 /* set1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set1.png; sourceTree = "<group>"; };
+		8ABC5D812A29A06100D3E0B9 /* set2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set2.png; sourceTree = "<group>"; };
+		8ABC5D832A29A06700D3E0B9 /* set3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set3.png; sourceTree = "<group>"; };
+		8ABC5D852A29A06F00D3E0B9 /* set31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set31.png; sourceTree = "<group>"; };
+		8ABC5D862A29A06F00D3E0B9 /* set4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set4.png; sourceTree = "<group>"; };
+		8ABC5D892A2B8C1700D3E0B9 /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
+		8ABC5D8B2A2B8C1B00D3E0B9 /* qianjin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qianjin.png; sourceTree = "<group>"; };
+		8ABFBBC42A257FDC00A99297 /* ZARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZARA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABFBBC72A257FDC00A99297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ABFBBC82A257FDC00A99297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ABFBBCA2A257FDC00A99297 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8ABFBBCB2A257FDC00A99297 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8ABFBBCD2A257FDC00A99297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ABFBBCE2A257FDC00A99297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ABFBBD12A257FDC00A99297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ABFBBD32A257FDD00A99297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ABFBBD62A257FDD00A99297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ABFBBD82A257FDD00A99297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABFBBD92A257FDD00A99297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ABFBBDF2A257FDE00A99297 /* ZARATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZARATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABFBBE32A257FDE00A99297 /* ZARATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARATests.m; sourceTree = "<group>"; };
+		8ABFBBE92A257FDE00A99297 /* ZARAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZARAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABFBBED2A257FDE00A99297 /* ZARAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARAUITests.m; sourceTree = "<group>"; };
+		8ABFBBEF2A257FDE00A99297 /* ZARAUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARAUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8ABFBBFF2A25824300A99297 /* SelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		8ABFBC002A25824300A99297 /* SelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		8ABFBC022A25825500A99297 /* BuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		8ABFBC032A25825500A99297 /* BuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		8ABFBC052A25827000A99297 /* AdminViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
+		8ABFBC062A25827000A99297 /* AdminViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
+		8ABFBC0A2A2588C500A99297 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		8ABFBC132A25B37B00A99297 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8ABFBC142A25B37B00A99297 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8ABFBC452A2601F300A99297 /* zhuye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuye.png; sourceTree = "<group>"; };
+		8ABFBC472A2602DF00A99297 /* gouwuche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gouwuche.png; sourceTree = "<group>"; };
+		8ABFBC492A2603AE00A99297 /* yonghu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yonghu.png; sourceTree = "<group>"; };
+		8ABFBC4D2A261EA300A99297 /* ZaraLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZaraLogo.png; sourceTree = "<group>"; };
+		8ABFBC512A26208400A99297 /* sousuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sousuo.png; sourceTree = "<group>"; };
+		8ABFBC532A26261D00A99297 /* P1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1.png; sourceTree = "<group>"; };
+		8ABFBC572A262D4500A99297 /* P2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P2.png; sourceTree = "<group>"; };
+		8ABFBC592A262DA700A99297 /* P3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P3.png; sourceTree = "<group>"; };
+		8ABFBC5D2A2648B500A99297 /* Select_woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Select_woman.h; sourceTree = "<group>"; };
+		8ABFBC5E2A2648B500A99297 /* Select_woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Select_woman.m; sourceTree = "<group>"; };
+		8ABFBC602A2648D800A99297 /* Select_kid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Select_kid.h; sourceTree = "<group>"; };
+		8ABFBC612A2648D800A99297 /* Select_kid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Select_kid.m; sourceTree = "<group>"; };
+		8ABFBC632A2648E300A99297 /* Select_man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Select_man.h; sourceTree = "<group>"; };
+		8ABFBC642A2648E300A99297 /* Select_man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Select_man.m; sourceTree = "<group>"; };
+		8ABFBC6A2A264C9000A99297 /* ZaraLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZaraLogo1.png; sourceTree = "<group>"; };
+		8AC486382A278ADE006B105E /* S2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S2.jpg; sourceTree = "<group>"; };
+		8AC4863A2A278AE3006B105E /* S3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S3.jpg; sourceTree = "<group>"; };
+		8AC4863C2A279874006B105E /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		8AC4863D2A279874006B105E /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		8AC4863F2A284CD2006B105E /* hs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hs.jpeg; sourceTree = "<group>"; };
+		8AC486412A28D2E3006B105E /* serviceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serviceTableViewCell.h; sourceTree = "<group>"; };
+		8AC486422A28D2E3006B105E /* serviceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = serviceTableViewCell.m; sourceTree = "<group>"; };
+		8AE31B392A30A3600033525A /* set5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ABFBBC12A257FDC00A99297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBDC2A257FDE00A99297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBE62A257FDE00A99297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ABFBBBB2A257FDC00A99297 = {
+			isa = PBXGroup;
+			children = (
+				8ABFBC362A25FF8100A99297 /* 分栏控制器图片 */,
+				8ABFBBC62A257FDC00A99297 /* ZARA */,
+				8ABFBBE22A257FDE00A99297 /* ZARATests */,
+				8ABFBBEC2A257FDE00A99297 /* ZARAUITests */,
+				8ABFBBC52A257FDC00A99297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABFBBC52A257FDC00A99297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFBBC42A257FDC00A99297 /* ZARA.app */,
+				8ABFBBDF2A257FDE00A99297 /* ZARATests.xctest */,
+				8ABFBBE92A257FDE00A99297 /* ZARAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ABFBBC62A257FDC00A99297 /* ZARA */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFBBC72A257FDC00A99297 /* AppDelegate.h */,
+				8ABFBBC82A257FDC00A99297 /* AppDelegate.m */,
+				8ABFBBCA2A257FDC00A99297 /* SceneDelegate.h */,
+				8ABFBBCB2A257FDC00A99297 /* SceneDelegate.m */,
+				8ABFBC132A25B37B00A99297 /* HomeViewController.h */,
+				8ABFBC142A25B37B00A99297 /* HomeViewController.m */,
+				8ABFBBFF2A25824300A99297 /* SelectViewController.h */,
+				8ABFBC002A25824300A99297 /* SelectViewController.m */,
+				8ABFBC602A2648D800A99297 /* Select_kid.h */,
+				8ABFBC612A2648D800A99297 /* Select_kid.m */,
+				8ABFBC632A2648E300A99297 /* Select_man.h */,
+				8ABFBC642A2648E300A99297 /* Select_man.m */,
+				8ABFBC5D2A2648B500A99297 /* Select_woman.h */,
+				8ABFBC5E2A2648B500A99297 /* Select_woman.m */,
+				8ABFBC022A25825500A99297 /* BuyViewController.h */,
+				8ABFBC032A25825500A99297 /* BuyViewController.m */,
+				8ABFBC052A25827000A99297 /* AdminViewController.h */,
+				8ABFBC062A25827000A99297 /* AdminViewController.m */,
+				8A7D77E92A2C268B005B1F92 /* selfMessageViewController.h */,
+				8A7D77EA2A2C268B005B1F92 /* selfMessageViewController.m */,
+				8A7D77EE2A2C29CA005B1F92 /* selfMessageTableViewCell.h */,
+				8A7D77EF2A2C29CA005B1F92 /* selfMessageTableViewCell.m */,
+				8AC4863C2A279874006B105E /* MyTableViewCell.h */,
+				8AC4863D2A279874006B105E /* MyTableViewCell.m */,
+				8AC486412A28D2E3006B105E /* serviceTableViewCell.h */,
+				8AC486422A28D2E3006B105E /* serviceTableViewCell.m */,
+				8ABFBBCD2A257FDC00A99297 /* ViewController.h */,
+				8ABFBBCE2A257FDC00A99297 /* ViewController.m */,
+				8ABFBC0A2A2588C500A99297 /* Cell.xib */,
+				8ABFBBD02A257FDC00A99297 /* Main.storyboard */,
+				8ABFBBD32A257FDD00A99297 /* Assets.xcassets */,
+				8ABFBBD52A257FDD00A99297 /* LaunchScreen.storyboard */,
+				8ABFBBD82A257FDD00A99297 /* Info.plist */,
+				8ABFBBD92A257FDD00A99297 /* main.m */,
+			);
+			path = ZARA;
+			sourceTree = "<group>";
+		};
+		8ABFBBE22A257FDE00A99297 /* ZARATests */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFBBE32A257FDE00A99297 /* ZARATests.m */,
+			);
+			path = ZARATests;
+			sourceTree = "<group>";
+		};
+		8ABFBBEC2A257FDE00A99297 /* ZARAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFBBED2A257FDE00A99297 /* ZARAUITests.m */,
+				8ABFBBEF2A257FDE00A99297 /* ZARAUITestsLaunchTests.m */,
+			);
+			path = ZARAUITests;
+			sourceTree = "<group>";
+		};
+		8ABFBC362A25FF8100A99297 /* 分栏控制器图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D77F32A2C48F9005B1F92 /* zaraHome.jpg */,
+				8ABFBC492A2603AE00A99297 /* yonghu.png */,
+				8ABFBC452A2601F300A99297 /* zhuye.png */,
+				8ABFBC472A2602DF00A99297 /* gouwuche.png */,
+				8ABFBC4D2A261EA300A99297 /* ZaraLogo.png */,
+				8ABFBC6A2A264C9000A99297 /* ZaraLogo1.png */,
+				8ABFBC512A26208400A99297 /* sousuo.png */,
+				8ABFBC532A26261D00A99297 /* P1.png */,
+				8ABFBC572A262D4500A99297 /* P2.png */,
+				8ABFBC592A262DA700A99297 /* P3.png */,
+				8A7D77F12A2C399F005B1F92 /* S1.jpg */,
+				8AC486382A278ADE006B105E /* S2.jpg */,
+				8AC4863A2A278AE3006B105E /* S3.jpg */,
+				8AC4863F2A284CD2006B105E /* hs.jpeg */,
+				8ABC5D752A29961600D3E0B9 /* set1.png */,
+				8ABC5D812A29A06100D3E0B9 /* set2.png */,
+				8ABC5D832A29A06700D3E0B9 /* set3.png */,
+				8ABC5D862A29A06F00D3E0B9 /* set4.png */,
+				8AE31B392A30A3600033525A /* set5.png */,
+				8ABC5D852A29A06F00D3E0B9 /* set31.png */,
+				8ABC5D892A2B8C1700D3E0B9 /* fanhui.png */,
+				8ABC5D8B2A2B8C1B00D3E0B9 /* qianjin.png */,
+				8A7D77EC2A2C28DA005B1F92 /* erweima.png */,
+			);
+			path = "分栏控制器图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ABFBBC32A257FDC00A99297 /* ZARA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABFBBF32A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARA" */;
+			buildPhases = (
+				8ABFBBC02A257FDC00A99297 /* Sources */,
+				8ABFBBC12A257FDC00A99297 /* Frameworks */,
+				8ABFBBC22A257FDC00A99297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZARA;
+			productName = ZARA;
+			productReference = 8ABFBBC42A257FDC00A99297 /* ZARA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ABFBBDE2A257FDE00A99297 /* ZARATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABFBBF62A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARATests" */;
+			buildPhases = (
+				8ABFBBDB2A257FDE00A99297 /* Sources */,
+				8ABFBBDC2A257FDE00A99297 /* Frameworks */,
+				8ABFBBDD2A257FDE00A99297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ABFBBE12A257FDE00A99297 /* PBXTargetDependency */,
+			);
+			name = ZARATests;
+			productName = ZARATests;
+			productReference = 8ABFBBDF2A257FDE00A99297 /* ZARATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ABFBBE82A257FDE00A99297 /* ZARAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABFBBF92A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARAUITests" */;
+			buildPhases = (
+				8ABFBBE52A257FDE00A99297 /* Sources */,
+				8ABFBBE62A257FDE00A99297 /* Frameworks */,
+				8ABFBBE72A257FDE00A99297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ABFBBEB2A257FDE00A99297 /* PBXTargetDependency */,
+			);
+			name = ZARAUITests;
+			productName = ZARAUITests;
+			productReference = 8ABFBBE92A257FDE00A99297 /* ZARAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ABFBBBC2A257FDC00A99297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8ABFBBC32A257FDC00A99297 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8ABFBBDE2A257FDE00A99297 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8ABFBBC32A257FDC00A99297;
+					};
+					8ABFBBE82A257FDE00A99297 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8ABFBBC32A257FDC00A99297;
+					};
+				};
+			};
+			buildConfigurationList = 8ABFBBBF2A257FDC00A99297 /* Build configuration list for PBXProject "ZARA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ABFBBBB2A257FDC00A99297;
+			productRefGroup = 8ABFBBC52A257FDC00A99297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ABFBBC32A257FDC00A99297 /* ZARA */,
+				8ABFBBDE2A257FDE00A99297 /* ZARATests */,
+				8ABFBBE82A257FDE00A99297 /* ZARAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ABFBBC22A257FDC00A99297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABC5D8C2A2B8C1B00D3E0B9 /* qianjin.png in Resources */,
+				8AC486392A278ADE006B105E /* S2.jpg in Resources */,
+				8AE31B3A2A30A3600033525A /* set5.png in Resources */,
+				8ABFBC6B2A264C9000A99297 /* ZaraLogo1.png in Resources */,
+				8ABC5D8A2A2B8C1700D3E0B9 /* fanhui.png in Resources */,
+				8ABC5D762A29961600D3E0B9 /* set1.png in Resources */,
+				8ABFBC5A2A262DA700A99297 /* P3.png in Resources */,
+				8ABC5D872A29A06F00D3E0B9 /* set31.png in Resources */,
+				8ABFBC542A26261D00A99297 /* P1.png in Resources */,
+				8ABFBBD72A257FDD00A99297 /* LaunchScreen.storyboard in Resources */,
+				8ABC5D842A29A06700D3E0B9 /* set3.png in Resources */,
+				8A7D77F22A2C399F005B1F92 /* S1.jpg in Resources */,
+				8ABFBC462A2601F300A99297 /* zhuye.png in Resources */,
+				8ABFBC0B2A2588C500A99297 /* Cell.xib in Resources */,
+				8ABFBBD42A257FDD00A99297 /* Assets.xcassets in Resources */,
+				8ABC5D882A29A06F00D3E0B9 /* set4.png in Resources */,
+				8ABFBC4E2A261EA300A99297 /* ZaraLogo.png in Resources */,
+				8ABFBBD22A257FDC00A99297 /* Main.storyboard in Resources */,
+				8A7D77ED2A2C28DA005B1F92 /* erweima.png in Resources */,
+				8ABFBC582A262D4500A99297 /* P2.png in Resources */,
+				8ABC5D822A29A06100D3E0B9 /* set2.png in Resources */,
+				8AC4863B2A278AE3006B105E /* S3.jpg in Resources */,
+				8ABFBC522A26208400A99297 /* sousuo.png in Resources */,
+				8ABFBC482A2602DF00A99297 /* gouwuche.png in Resources */,
+				8AC486402A284CD2006B105E /* hs.jpeg in Resources */,
+				8A7D77F42A2C48F9005B1F92 /* zaraHome.jpg in Resources */,
+				8ABFBC4A2A2603AE00A99297 /* yonghu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBDD2A257FDE00A99297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBE72A257FDE00A99297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ABFBBC02A257FDC00A99297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABFBBCF2A257FDC00A99297 /* ViewController.m in Sources */,
+				8ABFBBC92A257FDC00A99297 /* AppDelegate.m in Sources */,
+				8A7D77F02A2C29CB005B1F92 /* selfMessageTableViewCell.m in Sources */,
+				8ABFBC622A2648D800A99297 /* Select_kid.m in Sources */,
+				8ABFBC652A2648E300A99297 /* Select_man.m in Sources */,
+				8ABFBC152A25B37B00A99297 /* HomeViewController.m in Sources */,
+				8ABFBC072A25827000A99297 /* AdminViewController.m in Sources */,
+				8ABFBC012A25824300A99297 /* SelectViewController.m in Sources */,
+				8ABFBC5F2A2648B500A99297 /* Select_woman.m in Sources */,
+				8A7D77EB2A2C268B005B1F92 /* selfMessageViewController.m in Sources */,
+				8ABFBBDA2A257FDD00A99297 /* main.m in Sources */,
+				8AC4863E2A279874006B105E /* MyTableViewCell.m in Sources */,
+				8ABFBBCC2A257FDC00A99297 /* SceneDelegate.m in Sources */,
+				8ABFBC042A25825500A99297 /* BuyViewController.m in Sources */,
+				8AC486432A28D2E3006B105E /* serviceTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBDB2A257FDE00A99297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABFBBE42A257FDE00A99297 /* ZARATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABFBBE52A257FDE00A99297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABFBBF02A257FDE00A99297 /* ZARAUITestsLaunchTests.m in Sources */,
+				8ABFBBEE2A257FDE00A99297 /* ZARAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ABFBBE12A257FDE00A99297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ABFBBC32A257FDC00A99297 /* ZARA */;
+			targetProxy = 8ABFBBE02A257FDE00A99297 /* PBXContainerItemProxy */;
+		};
+		8ABFBBEB2A257FDE00A99297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ABFBBC32A257FDC00A99297 /* ZARA */;
+			targetProxy = 8ABFBBEA2A257FDE00A99297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ABFBBD02A257FDC00A99297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABFBBD12A257FDC00A99297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ABFBBD52A257FDD00A99297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABFBBD62A257FDD00A99297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ABFBBF12A257FDE00A99297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ABFBBF22A257FDE00A99297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ABFBBF42A257FDE00A99297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZARA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ABFBBF52A257FDE00A99297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZARA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ABFBBF72A257FDE00A99297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZARA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZARA";
+			};
+			name = Debug;
+		};
+		8ABFBBF82A257FDE00A99297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZARA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZARA";
+			};
+			name = Release;
+		};
+		8ABFBBFA2A257FDE00A99297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZARA;
+			};
+			name = Debug;
+		};
+		8ABFBBFB2A257FDE00A99297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZARAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZARA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ABFBBBF2A257FDC00A99297 /* Build configuration list for PBXProject "ZARA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFBBF12A257FDE00A99297 /* Debug */,
+				8ABFBBF22A257FDE00A99297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABFBBF32A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFBBF42A257FDE00A99297 /* Debug */,
+				8ABFBBF52A257FDE00A99297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABFBBF62A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFBBF72A257FDE00A99297 /* Debug */,
+				8ABFBBF82A257FDE00A99297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABFBBF92A257FDE00A99297 /* Build configuration list for PBXNativeTarget "ZARAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABFBBFA2A257FDE00A99297 /* Debug */,
+				8ABFBBFB2A257FDE00A99297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ABFBBBC2A257FDC00A99297 /* Project object */;
+}
